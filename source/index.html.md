@@ -311,7 +311,7 @@ URL | Description
 
 # Search
 
-<aside class="notice">The user must be logged into the cclipss iOS application for tag URL's to work. If user is not signed in the application will take no action and dismiss the request silently.</aside>
+<aside class="notice">The user must be logged into the cclipss iOS application for the search URL to work. If user is not signed in the application will take no action and dismiss the request silently.</aside>
 
 ## Search Term
 
@@ -337,7 +337,7 @@ URL | Description
 
 # Filter
 
-<aside class="notice">The user must be logged into the cclipss iOS application for tag URL's to work. If user is not signed in the application will take no action and dismiss the request silently.</aside>
+<aside class="notice">The user must be logged into the cclipss iOS application for the filter URL to work. If user is not signed in the application will take no action and dismiss the request silently.</aside>
 
 ## Filter
 
@@ -384,6 +384,8 @@ URL | Description
 
 
 # Upgrade
+
+<aside class="notice">The user must be logged into the cclipss iOS application for the upgrade URL to work. If user is not signed in the application will take no action and dismiss the request silently.</aside>
 
 ## Upgrade Account
 
