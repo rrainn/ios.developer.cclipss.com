@@ -29,7 +29,7 @@ This endpoint displays the create bookmark view controller with query parameters
 
 ### HTTP Request
 
-`cclipss://bookmarks/add` OR `cclipss://bookmarks/create`
+`cclipss://bookmark/add` OR `cclipss://bookmark/create`
 
 ### Query Parameters
 
@@ -46,9 +46,9 @@ unread | true | If set to true, the bookmark will be marked as unread. If set to
 
 URL | Description
 --- | -----------
-`cclipss://bookmarks/add` | Will display view controller to create bookmark with nothing prefilled.
-`cclipss://bookmarks/create?url=https://cclipss.com` | Will display view controller to create bookmark with `https://cclipss.com` prefilled as the URL.
-`cclipss://bookmarks/add?url=https://cclipss.com&title=cclipss%20Website` | Will display view controller to create bookmark with `https://cclipss.com` prefilled as the URL, and `cclipss Website` prefilled as the title.
+`cclipss://bookmark/add` | Will display view controller to create bookmark with nothing prefilled.
+`cclipss://bookmark/create?url=https://cclipss.com` | Will display view controller to create bookmark with `https://cclipss.com` prefilled as the URL.
+`cclipss://bookmark/add?url=https://cclipss.com&title=cclipss%20Website` | Will display view controller to create bookmark with `https://cclipss.com` prefilled as the URL, and `cclipss Website` prefilled as the title.
 
 
 
@@ -58,7 +58,7 @@ This endpoint displays the edit bookmark view controller for the bookmark ID pro
 
 ### HTTP Request
 
-`cclipss://bookmarks/edit/:ID`
+`cclipss://bookmark/edit/:ID`
 
 ### URL Parameters
 
@@ -70,7 +70,7 @@ ID | The ID of the bookmark to edit
 
 URL | Description
 --- | -----------
-`cclipss://bookmarks/edit/bookmarkidherebookmarkidhere000000000000` | Will display view controller to edit bookmark for bookmark ID `bookmarkidherebookmarkidhere000000000000`.
+`cclipss://bookmark/edit/bookmarkidherebookmarkidhere000000000000` | Will display view controller to edit bookmark for bookmark ID `bookmarkidherebookmarkidhere000000000000`.
 
 
 
@@ -80,7 +80,7 @@ This endpoint delete's the bookmark ID provided.
 
 ### HTTP Request
 
-`cclipss://bookmarks/delete/:ID`
+`cclipss://bookmark/delete/:ID`
 
 ### URL Parameters
 
@@ -92,7 +92,7 @@ ID | The ID of the bookmark to delete
 
 URL | Description
 --- | -----------
-`cclipss://bookmarks/delete/bookmarkidherebookmarkidhere000000000000` | Will delete the bookmark ID `bookmarkidherebookmarkidhere000000000000`.
+`cclipss://bookmark/delete/bookmarkidherebookmarkidhere000000000000` | Will delete the bookmark ID `bookmarkidherebookmarkidhere000000000000`.
 
 
 
@@ -102,7 +102,7 @@ This endpoint open's the bookmark ID provided.
 
 ### HTTP Request
 
-`cclipss://bookmarks/view/:ID`
+`cclipss://bookmark/view/:ID`
 
 ### URL Parameters
 
@@ -114,7 +114,7 @@ ID | The ID of the bookmark to view
 
 URL | Description
 --- | -----------
-`cclipss://bookmarks/view/bookmarkidherebookmarkidhere000000000000` | Will view the bookmark ID `bookmarkidherebookmarkidhere000000000000`.
+`cclipss://bookmark/view/bookmarkidherebookmarkidhere000000000000` | Will view the bookmark ID `bookmarkidherebookmarkidhere000000000000`.
 
 
 
