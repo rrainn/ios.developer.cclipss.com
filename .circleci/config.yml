@@ -39,9 +39,8 @@ jobs:
       - run: 
           name: install aws
           command: |
-            sudo apt install python-pip python-dev
-            pip install awscli --upgrade --user
-
+            sudo apt-get -y -qq install awscli
+      
       - save_cache:
           paths:
             - ./vendor/bundle
