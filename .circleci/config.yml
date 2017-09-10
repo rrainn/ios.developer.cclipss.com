@@ -39,10 +39,7 @@ jobs:
       - run: 
           name: install aws
           command: |
-            apt-get -y -qq update
-            apt-get -y -qq install python3.4-dev
-            curl -O https://bootstrap.pypa.io/get-pip.py
-            python3.4 get-pip.py --user
+            apt install python-pip python-dev
             pip install awscli --upgrade --user
 
       - save_cache:
