@@ -40,7 +40,7 @@ jobs:
           name: install aws
           command: |
             sudo apt install python-pip python-dev
-            sudo pip install awscli --upgrade --user
+            pip install awscli --upgrade --user
 
       - save_cache:
           paths:
